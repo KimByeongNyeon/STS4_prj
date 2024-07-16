@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,24 +8,19 @@
 
 <!-- Latest compiled and minified JavaScript -->
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		back.click(function(){
+			location.href="http://localhost:8080/demo/index"
+		})	
+	}) -->
+<!-- </script> -->
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Hi~~</title>
 </head>
 <body>
-	<table class="table table-hover">
-		<thead>
-			<tr>
-				<td>이름</td>
-				<td>나이</td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>김병년</td>
-				<td>27</td>
-			</tr>
-		</tbody>
-	</table>
-	<a href="http://localhost:8080/demo/test">테스트 페이지</a>
+<p>왜 안돼~~~</p>
+<input type ="button" class="btn btn-success" value ="뒤로 가기" id="back" onclick="history.back()">
 </body>
 </html>
